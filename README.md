@@ -1,1 +1,1 @@
-
+This is my personal portfolio, the portfolio.html is the html file and portfolio.css is css connected to that, other than them, this have folder which contains photoes and small html css programs for future if I wanted to make it multipage rather than single page.
