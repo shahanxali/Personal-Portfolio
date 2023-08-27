@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    <meta charset="UTF-8">
+    <title>Shahan Ali Portfolio</title>
+
+</style>
+
+
+
+
+
+</head>
+
+<body>
+  <link rel="stylesheet" href="Home.css">
+
+  
+
+
+  <!--------starting the background-------->
+
+    <div class="hero">
+  
+
+
+
+
+
+     <!---------------logo------------->
+      
+       <h1 style="position: fixed;"> <a href="file:///media/shahan/SHAHAN%20ALI/Portfolio/Home.html"><div class="logo"><div class="sign"> Shahan Ali</div></div></a></h1>
+    
+
+       <!------------navigation------------>
+        <nav>  <div id="header">
+        <ul><h1 style="position: fixed;">
+            <li><a class="active" href="file:///media/shahan/SHAHAN%20ALI/Portfolio/Home.html">Home</a></li>
+            <li><a href="/media/shahan/SHAHAN ALI/Portfolio/about.html">About</a></li>
+            <li><a href="/media/shahan/SHAHAN ALI/Portfolio/interests.html">Skills</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Achievements</a></li>
+            <li><a href="#">Contact</a></li>
+        </nav>
+        </h1>
+        </ul> 
+
+
+        <h1 style="text-align: right;"><a href="#" class="btn">Mail Me</a></h1>
+      
+
+
+      
+    <h1 class="ml5", align="center">
+      <span class="text-wrapper">
+        <span class="line line1"></span>
+        <span class="letters letters-left">Welcome to</span>
+        <span class="letters ampersand">my</span>
+        <span class="letters letters-right">Portfolio</span>
+        <span class="line line2"></span>
+      </span>
+    </h1>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    
+    
+    
+    <script>
+anime.timeline({loop:true})
+  .add({
+    targets: '.ml5 .line',
+    opacity: [0.5,1],
+    scaleX: [1,1],
+    easing: "easeInOutExpo",
+    duration: 700
+  }).add({
+    targets: '.ml5 .line',
+    duration: 600,
+    easing: "easeOutExpo",
+    translateY: (el, i) => (-0.625 + 0.625*2*i) + "em"
+  }).add({
+    targets: '.ml5 .ampersand',
+    opacity: [0,1],
+    scaleY: [0.5,1],
+    easing: "easeOutExpo",
+    duration: 600,
+    offset: '-=600'
+  }).add({
+    targets: '.ml5 .letters-left',
+    opacity: [0,1],
+    translateX: ["0.5em", 0],
+    easing: "easeOutExpo",
+    duration: 600,
+    offset: '-=300'
+  }).add({
+    targets: '.ml5 .letters-right',
+    opacity: [0,1],
+    translateX: ["-0.5em", 0.6],
+    easing: "easeOutExpo",
+    duration: 600,
+    offset: '-=600'
+  }).add({
+    targets: '.ml5',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+  
+  
+  </script>
+     
+
+        <div class="content">
+            <span class="title">Web Designer</span>
+            
+            
+            <h1>
+      
+<font size="8", color="#c0c0c0">
+My Name is
+</font>
+<br>
+                
+                <span>Shahan Ali</span></h1>
+                </font> <p>A student at UPES enrolled in B.tech computer Science,Currently trying to advance full stack development.</h1>
+</p>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+    </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+</body>
+</html>

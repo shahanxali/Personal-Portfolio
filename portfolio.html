@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+        <meta charset="UTF-8">
+        <title>Shahan Ali Portfolio</title>
+
+      
+  </head>
+
+
+
+
+  <body>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+
+  
+
+
+    <!-------------------------------starting the background--------------------------------------->
+
+    <div class="hero">
+  
+      <div class="hehe">
+
+
+       <!----------------------------------------------logo--------------------------------------------->
+        <div style="align-items: center;">
+          <div id="header">
+
+            <h1 style="position: fixed;">
+              <a href="#home">
+                <div class="sign">
+                   Shahan Ali
+                </div>
+              </a>
+            </h1>
+    
+
+            <!--------------------------------------------------------navigation--------------------------------------------------------->
+            <nav>
+        
+
+              <ul><h1 style="position: fixed;">
+
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#">Contact</a></li>
+
+          
+      
+     
+
+
+
+            <!--------------------------------------------------- Mail Me-------------------------------------------------------->
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+           <a href="mailto: shahan252002@gmail.com" target="_blank" class="btn">Mail Me
+           </a>
+      
+
+            </h1>
+          </ul>
+          </nav>
+          </div>
+          </div>
+        </p>
+        </div>
+      
+        
+
+
+
+
+      <!-----------------------------------arrow----------------------------------->
+
+
+      <h1 id="home">
+
+        <div id="arrowAnim">
+        <div class="arrowSliding">
+        <div class="arrow"></div>
+        </div>
+         <div class="arrowSliding delay1">
+        <div class="arrow"></div>
+        </div>
+            <div class="arrowSliding delay2">
+       <div class="arrow"></div>
+       </div>
+        <div class="arrowSliding delay3">
+        <div class="arrow"></div>
+        </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      <!---------------------------------------------------Welcome Note--------------------------------------------------->
+
+
+
+      
+      <h1 class="ml5", align="center">
+       <span class="text-wrapper">
+          <span class="line line1"></span>
+          <span class="letters letters-left">Welcome to</span>
+          <span class="letters ampersand">Shahan's</span>
+          <span class="letters letters-right">Portfolio</span>
+          <span class="line line2"></span>
+      </span>
+      </h1>
+  
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js">
+
+
+
+      
+      </script>
+    
+    
+    
+      <script>
+        anime.timeline({loop:true})
+         .add({
+          targets: '.ml5 .line',
+          opacity: [0.5,1],
+          scaleX: [1,1],
+          easing: "easeInOutExpo",
+          duration: 700
+       }).add({
+          targets: '.ml5 .line',
+          duration: 600,
+          easing: "easeOutExpo",
+          translateY: (el, i) => (-0.625 + 0.625*2*i) + "em"
+        }).add({
+          targets: '.ml5 .ampersand',
+          opacity: [0,1],
+          scaleY: [0.5,1],
+          easing: "easeOutExpo",
+          duration: 600,
+          offset: '-=600'
+        }).add({
+          targets: '.ml5 .letters-left',
+          opacity: [0,1],
+          translateX: ["0.5em", 0],
+          easing: "easeOutExpo",
+          duration: 600,
+          offset: '-=300'
+        }).add({
+          targets: '.ml5 .letters-right',
+          opacity: [0,1],
+          translateX: ["-0.5em", 0.6],
+          easing: "easeOutExpo",
+          duration: 600,
+          offset: '-=600'
+        }).add({
+          targets: '.ml5',
+          opacity: 0,
+          duration: 1000,
+          easing: "easeOutExpo",
+          delay: 1000
+        });
+  
+  
+      </script>
+     
+
+
+
+
+
+
+
+      <!--------------------------------------------------- Home content ---------------------------------------------------->
+
+
+
+
+      <div class="content">
+        <span class="title">Web Designer
+        </span>
+           
+        
+
+            
+        <h1>
+      
+
+          <font size="7", color="#c0c0c0">My Name is
+          </font> <br>
+                
+
+
+        
+          <span>Shahan Ali
+          </span>
+          
+
+      
+
+
+        </h1>
+        <p>A student at UPES enrolled in B.tech computer Science,Currently trying to advance full stack development.
+        </p>
+
+
+        </h1>
+        
+
+        <a href="#" class="btn">Download CV
+        </a>
+
+
+        
+      <h1 id="about">
+       <p>... </p>
+
+
+
+      </div>
+        
+         
+      
+        
+          
+        
+
+
+
+
+      <!------------------------------------------------------About Content-------------------------------------------------->
+
+        
+    
+            <div class = "about-wrapper">
+              <div class = "about-left">
+                <div class = "about-left-content">
+                  <div>
+                    
+                      
+                        <img src="Picture\me.jfif"
+                        width="300" 
+                        height="380" />
+                    
+        
+                    <h2 >SHAHAN ALI</h2>
+                    <h3>Web developer</h3>
+                  </div>
+        
+                  <ul class = "icons">
+                    <a href="https://www.facebook.com/profile.php?id=100008342889488 target="_blank""></a><li><i class="fab fa-facebook-f"></i></li></a>
+                    <a href="https://twitter.com/_I_AM_SHAHAN_" target="_blank"><li><i class = "fab fa-twitter"></i></li></a>
+                    <a href="https://www.linkedin.com/in/shahan-ali-92536322b/" target="_blank"><li><i class = "fab fa-linkedin"></i></li></a>
+                    <a href="https://www.instagram.com/_iam__shahan__/" target="_blank"><li><i class = "fab fa-instagram"></i></li></a>
+                  </ul>
+                </div>
+                
+              </div>
+       
+              <div class = "about-right">
+                
+                 <h1 style="font-family: Arial, sans-serif;">!مرحبا</h1>
+
+                <!-- <h1>Hello!</h1> -->
+                <h2 style="color: rgb(42, 203, 203)">Here's who I am & what I do</h2>
+                <div class = "about-btns">
+                  <button type = "button" class = "btn btn-pink">resume / CV</button>
+                  &nbsp;&nbsp;
+                  <a href="https://github.com/shahanxali" target="_blank"><button type = "button" class = "btn btn-white">Git hub</button></a>
+                </div>
+   
+                <div class = "about-para">
+                   <p>My name is Shahan Ali, a 18 year old boy. I am a student at UPES
+                    B tech (CSE), I designed and created this portfolio
+                    by myself.
+                    </p>
+                    <p>What I like is football and Music, specially those of Hindi classics and One Direction.
+                    My achievements
+                  are- <br>
+                    Being vice captain at district level of Football earlier<br>
+                    Third prize winner District level of Chess<br>
+                    Plays guitar and trying to achieve milestone in<br>
+                    Record of solving rubic's cube in 40 seconds.<br>
+                    Don't wanna blow my own trumpet but that's all I got so far .</p>
+                </div>
+                
+              </div>
+            </div>
+          </body>
+
+         
+     <br>
+     
+     
+     <h1 style="text-align:center; color: rgb(42, 203, 203); font-size:large;">
+    
+ 
+  To be Honest, I am still trying to figure out who I am.
+  The more I look into it, the more complex it gets. After all
+<br><blockquote class="w3-panel w3-leftbar w3-light-grey">
+  <p class="w3-large">
+  <i>"This above all, to thine own self be true"  </i>
+  &nbsp;&nbsp; ~William Shakespeare</p>
+</blockquote>
+</h1>
+
+          </h1>
+
+
+   
+
+
+
+
+
+          <!---------------------------------------------------- skill content ------------------------------------------------------>
+
+
+          
+          <h1 id="skills">
+
+
+
+
+
+        
+          <br><br>
+
+        
+          <div class="patterns">
+            <svg width="100%" height="100%">
+              <defs>
+                <style>
+                  @import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i");
+                </style>
+              </defs>
+          
+              <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" font-family="Lora" font-size="80px" font-weight="700" fill="#ffa5d8" stroke="#ffa5d8" stroke-width="3" letter-spacing="10px">
+                Shahan Ali's Skills
+              </text>
+            </svg>
+          </div>
+          
+
+
+
+
+<!------------------------CODING--------------------------->
+
+
+
+<br><p>
+
+  <div class="left-half">
+      <h1 style="color: #EEA7C6; font-size:46px; text-align: center;">
+        Coding
+      </h1>
+      <p style="color:palevioletred; text-align: center; font-size: x-large;">
+        I like coding, to be honest I like making logic for codes instead of coding.
+        <br><br> The language I am best at is Python, beside this i know C, C++, Java Script,<br> HTML  and CSS.
+          <br>The main part is, i love finding logics rather than using words, I dont know if it's the good point or bad
+          but That's what it is.
+      </p>
+  </div>
+
+  <div class="right-half">
+   <img src="Picture\code.png"
+    width="700" 
+    height="380"
+    
+    />
+    </div>
+    </p>
+    
+
+
+<!----------------------FOOTBALL---------------------->
+
+  <br><br><br><br><br><br><br><br><br><br><br>
+
+
+    <div class="left-half">
+      <img src=""
+      width="700" 
+      height="380"
+      />
+      
+    </div>
+  
+    <div class="right-half">
+      <h1 style="color: #F5E050; font-size:46px; text-align: center;">
+        Football
+      </h1>
+      <p style="color:#EDE8BA; text-align: center; font-size: x-large;">
+        I like football since I was a kid, I always try to play for <br>
+        myself and not for any level, I tried once and played for dictrict level<br>
+        under 19 when i was 14 years old. I can play football day <br>and night and never get tired<br>
+        because hobby is something you never gets bore from.<br><br>
+        I have been playing this game since my dad used to play with<br>
+        I believe that I am way better than many guys out there <br>
+        bragging about there abilities in football
+      </p>
+    </div>
+
+<!-----------------------RUBICS CUBE---------------------->
+
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+
+  <div class="left-half">
+    <h1 style="color: #D34DD2; font-size:46px; text-align: center;">
+      Rubik's Cube
+    </h1>
+    <p style="color: #BE93D4; text-align: center; font-size: x-large;">
+      Rubik's cube is the first thing I will solve when it comes to getting
+      <br>bored in the house.
+      <br>I learned Rubik's Cube when I was 16, and it took me almost a month
+      <br>to learn and solve it.
+      <br><br>Although I know it's not that much popular of a skill as doing a beginner's method is common nowadays
+      <br>but I gave my best to it, even though it's common, i can proudly say "I CAN SOLVE IT".
+      <br>40 second is my own personal record to solve the Rubik's Cube 3*3 when I was just 17.
+    </p>
+</div>
+
+<div class="right-half">
+  <br><br>
+ <img src="Picture\rubik.jpeg"
+  width="700" 
+  height="380"
+  />
+  </div>
+  </p>
+
+    </h1>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+            <!--------------------------------------------------------Projects--------------------------------------------------------->
+
+
+            <h1 id="projects">
+              <br><br>
+
+            <div class='cut-text'>Projects</div>
+<br><br>
+            
+            
+
+            <div class="card-container">
+              <div class="card">
+                <div class="contentp">
+                  <h2>Project 1</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis enim quasi vero porro impedit, iusto repudiandae libero odit laboriosam quibusdam dolorem labore, quam, neque molestiae inventore placeat sint natus vitae.</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="contentp">
+                  <h2>Project 2</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, similique!</p>
+                </div>
+              </div>
+              
+              <div class="card">
+                <div class="contentp">
+                  <h2>Project 3</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, similique!</p>
+                </div>
+              </div>
+
+              <br>
+              
+              <div class="card">
+                <div class="contentp">
+                  <h2>Project 2</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, similique!</p>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="contentp">
+                  <h2>Project 3</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, similique!</p>
+                </div>
+              </div>
+            </div>
+            
+            </h1>
+
+
+<br><br>
+
+            <h1 style="text-align:center; color: rgb(42, 203, 203); font-size:large;">
+  
+            <blockquote class="w3-panel w3-leftbar w3-light-grey">
+              <p class="w3-large">
+              <i>"A leader is a dealer in hope"  </i>
+              &nbsp;&nbsp; ~Napolean Bonaparte</p>
+            </blockquote>
+            </h1>
+            
+
+<!---------------------------------------------achievements--------------------------------------------->
+
+<h1 id="achievements">
+
+  <br><br>
+<div class="waviy">
+  <span style="--i:1">A</span>
+  <span style="--i:2">c</span>
+  <span style="--i:3">h</span>
+  <span style="--i:4">i</span>
+  <span style="--i:5">e</span>
+  <span style="--i:6">v</span>
+  <span style="--i:7">e</span>
+  <span style="--i:8">m</span>
+  <span style="--i:9">e</span>
+  <span style="--i:10">n</span>
+  <span style="--i:11">t</span>
+  <span style="--i:12">s</span>
+ </div>
+
+<br>
+
+ <div class="box">
+  <h1 style="margin-top: 0;
+  font-size: 24px;
+  color: #4b4444;">Achievement 1</h1>
+  <p style="margin-bottom: 0;
+  font-size: 14+px;
+  color: #adb2df;
+">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, expedita!</p>
+</div>
+
+<div class="box">
+  <h1 style="margin-top: 0;
+  font-size: 24px;
+  color: #4b4444;">Achievement 2</h1>
+  <p style="margin-bottom: 0;
+  font-size: 14+px;
+  color: #adb2df;
+">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, expedita!</p>
+</div>
+
+
+
+</h1>
+
+    
+
+    </div>
+  </body>
+</html>
