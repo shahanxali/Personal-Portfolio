@@ -424,9 +424,9 @@ nav ul li a:hover:after{
 }
 
 .btn.btn-pink{
-    background: #1E58C2;
-    color: #fff;
-    border-color: #B721FF;
+    background: #6185c8;
+    color: #000000;
+    border-color: #6185c8;
     transition: all 0.5s ease-in-out;
 }
 .btn.btn-pink:hover{
@@ -446,7 +446,7 @@ nav ul li a:hover:after{
     font-weight: 300;
     padding: 0.5rem;
     opacity: 0.8;
-    
+    color: #94bab8;
 }
 
 @media screen and (min-width: 992px){
