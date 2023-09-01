@@ -5,6 +5,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Schoolbell&v1");
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
 /**--------------------------------------------------------------basics-----------------------------------------------------------**/
 
 * {
@@ -478,7 +481,7 @@ foot {
 
 
 
-.skill-wrapper {
+/* .skill-wrapper {
   position: relative;
   display: flex;
   justify-content: center;
@@ -492,7 +495,148 @@ foot {
   width: 48%;
   position: relative;
   z-index: 0;
+} */
+
+
+
+
+
+
+
+.cardse-wrapper {
+  margin: 0 auto;
+  max-width: 2000px; /* Adjust the maximum width as needed */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; /* Vertically center the cards */
+  margin-bottom: 30px;
+  justify-content: center;
+  border-radius: 10px;
+  
 }
+
+.cardse-wrapper .cardse-wrapper {
+  flex: 0 0 calc(33.33% - 10px); /* To limit to 3 in each row with spacing */
+}
+
+.cardse {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  
+  max-width: 300px; /* Adjust the max width of each card */
+  margin: 10px;
+  border: 1px solid #141212;
+  border-radius: 10px;
+  overflow: hidden;
+  min-height: 400px;
+  height: 100px;
+}
+
+.cardse-img-wrapper img {
+  width: 100%;
+  height: auto;
+  transition: transform 1.5s ease, opacity 0.5s ease;
+  object-fit: contain; 
+}
+
+
+.cardse-image .cardse .cardse-img-wrapper {
+  height: 100%;
+}
+.cardse-image .cardse .cardse-body {
+  display: none;
+}
+.cardse-image-title-description .cardse .cardse-img-wrapper {
+  max-height: 160px;
+}
+.cardse-image-title-description .cardse {
+  position: relative;
+  min-height: 300px;
+}
+.cardse-image-title-description .cardse .cardse-body {
+  height: auto;
+  position: relative;
+  top: 0;
+  margin-bottom: -70px;
+}
+.cardse-image-title-description .cardse:hover .cardse-body {
+  top: -70px;
+}
+.cardse-image-title-description .cardse .cardse-body .cardse-title {
+  margin-bottom: .75rem;
+}
+
+.cardse:hover {
+  box-shadow: 8px 12px 31px -10px #ab98ab;
+}
+.cardse-img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  overflow: hidden;
+}
+.cardse-img-wrapper img {
+  transition: 1.5s ease;
+}
+.cardse:hover .cardse-img-wrapper img {
+  transform: scale(1.15);
+}
+.cardse-body .cardse-title {
+  margin-bottom: calc(50% + 20px);
+  transition: 1.5s ease;
+}
+.cardse:hover .cardse-body .cardse-title {
+  margin-bottom: .75rem;
+}
+
+.cardse-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 57.5%;
+  background-color: #121212;
+  transition: 1.5s ease;
+  color: #6a737b;
+}
+.cardse-content {
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  transition: 1.5s ease;
+}
+.cardse:hover .cardse-body {
+  height: 80%;
+}
+.cardse:hover .cardse-content {
+  bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -507,6 +651,7 @@ foot {
   font-family: "Catamaran", sans-serif;
   font-style: italic;
   text-align: center; /* Add this line to center-align the text */
+
 }
 
 .cut-text:after {
