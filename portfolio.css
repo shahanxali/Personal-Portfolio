@@ -524,7 +524,6 @@ foot {
   position: relative;
   flex-direction: column;
   align-items: center;
-  
   max-width: 300px; /* Adjust the max width of each card */
   margin: 10px;
   border: 1px solid #141212;
@@ -559,13 +558,11 @@ foot {
   height: auto;
   position: relative;
   top: 0;
-  margin-bottom: -70px;
+  margin-bottom: 40px;
 }
-.cardse-image-title-description .cardse:hover .cardse-body {
-  top: -70px;
-}
+
 .cardse-image-title-description .cardse .cardse-body .cardse-title {
-  margin-bottom: .75rem;
+  margin-bottom: .5rem;
 }
 
 .cardse:hover {
@@ -585,11 +582,11 @@ foot {
   transform: scale(1.15);
 }
 .cardse-body .cardse-title {
-  margin-bottom: calc(50% + 20px);
+  margin-bottom: calc(50% + 30px);
   transition: 1.5s ease;
 }
 .cardse:hover .cardse-body .cardse-title {
-  margin-bottom: .75rem;
+  margin-bottom: .5rem;
 }
 
 .cardse-body {
@@ -617,6 +614,18 @@ foot {
   bottom: 0;
 }
 
+
+
+
+.cardse-description {
+  display: block; /* Initially visible */
+  transition: opacity 0.5s ease;
+  margin-bottom: calc(50% + 0px);
+}
+
+.cardse:hover .cardse-description {
+  opacity: 0; /* Disappear on hover */
+}
 
 
 
