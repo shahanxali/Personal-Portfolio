@@ -375,7 +375,7 @@ nav ul li a:hover:after {
   justify-content: center;
   padding: 0rem;
   text-align: center;
-  color: #fff;
+  color: #e1d2d2;
 }
 .about-right h1 {
   font-size: 5rem;
@@ -412,10 +412,10 @@ nav ul li a:hover:after {
   color: #7f8e94;
 }
 .about-para p {
-  font-weight: 300;
+  font-weight: 400;
   padding: 0.5rem;
   opacity: 0.8;
-  color: #94bab8;
+  color: rgb(144, 164, 164);
 }
 
 @media screen and (min-width: 992px) {
@@ -478,24 +478,6 @@ foot {
   margin-bottom: 20px;
   text-align: center;
 }
-
-
-
-/* .skill-wrapper {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2rem 0;
-  font-size: x-large;
-}
-
-.skill-wrapper .left-half,
-.skill-wrapper .right-half {
-  width: 48%;
-  position: relative;
-  z-index: 0;
-} */
 
 
 
@@ -582,11 +564,11 @@ foot {
   transform: scale(1.15);
 }
 .cardse-body .cardse-title {
-  margin-bottom: calc(50% + 30px);
+  margin-bottom: calc(50% + 10px);
   transition: 1.5s ease;
 }
 .cardse:hover .cardse-body .cardse-title {
-  margin-bottom: .5rem;
+  margin-bottom: .75rem;
 }
 
 .cardse-body {
@@ -608,10 +590,14 @@ foot {
   transition: 1.5s ease;
 }
 .cardse:hover .cardse-body {
-  height: 80%;
+  height: 83%;
 }
 .cardse:hover .cardse-content {
   bottom: 0;
+}
+
+.cardse-text{
+  font-size: 18px;
 }
 
 
@@ -620,7 +606,7 @@ foot {
 .cardse-description {
   display: block; /* Initially visible */
   transition: opacity 0.5s ease;
-  margin-bottom: calc(50% + 0px);
+  overflow: hidden;
 }
 
 .cardse:hover .cardse-description {
@@ -691,9 +677,9 @@ foot {
 .card {
   width: 450px;
   height: 300px;
-  background: linear-gradient(135deg, #a38560, #5b4934);
+  background: linear-gradient(135deg, #1b1a18, #151514);
   border-radius: 10px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 6px rgba(212, 203, 203, 0.1);
   overflow: hidden;
   transition: transform 0.3s, box-shadow 0.3s;
   margin: 10px;
@@ -719,6 +705,129 @@ p {
   margin-top: 10px;
   font-size: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box{
+  font-family: 'Spartan', sans-serif;
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+}
+.box:before{
+  content: "";
+  background: repeating-linear-gradient(to right, transparent,transparent 10px, #fff 10px,#fff 20px);
+  width: 0;
+  height: 100%;
+  opacity: 0;
+  transform: translateX(-50%) scale(1.7) rotate(45deg);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 1;
+  transition: all 0.3s ease-out;
+}
+.box:hover:before{
+  width: 100%;
+  opacity: 0.2;
+  transform: translateX(-50%) scale(1) rotate(0);
+}
+.box img{
+  width: 100%;
+  height: auto;
+  transition: all 0.4s ease-out;
+}
+.box:hover img{ filter: blur(5px); }
+.box .box-content{
+  color: #fff;
+  background: linear-gradient(#FF416C,#FF4B2B);
+  text-align: center;
+  width: 250px;
+  padding: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.7);
+  opacity: 0;
+  transform: translateX(-50%) translateY(-50%) scale(2);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  transition: all 0.4s ease-out;
+}
+.box:hover .box-content{
+  opacity: 0.85;
+  transform: translateX(-50%) translateY(-50%) scale(1);
+}
+.box .title{
+  font-size: 23px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 0 2px;
+}
+.box .post{
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 0 15px;
+  display: block;
+}
+.box .icon{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.box .icon li{
+  display: inline-block;
+  margin: 0 4px;
+}
+.box .icon li a{
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 29px;
+  height: 30px;
+  width: 30px;
+  border: 2px dashed #fff;
+  display: block;
+  transition: all 0.3s ease 0s;
+}
+.box .icon li a:hover{ border-radius: 15px; }
+@media only screen and (max-width:990px){
+  .box { margin: 0 0 30px; }
+}
+License Terms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*--------------------------------------------------------achivements----------------------------------------------------*/
 
