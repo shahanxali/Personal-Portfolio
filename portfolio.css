@@ -28,7 +28,7 @@ html {
 
 header {
   background-color: #333;
-  color: white;
+  color: rgb(215, 74, 74);
   padding: 20px;
   display: flex; /* Use flexbox for layout control */
   justify-content: space-between; /* Spread elements horizontally */
@@ -36,23 +36,6 @@ header {
 }
 
 
-
-/**--------------------------------------------------------logo-------------------------------------------------------------**/
-
-
-
-.sign {
-  position: absolute;
-  z-index: 2;
-  overflow: hidden;
-  padding: 3% 5%;
-  font-family: 'Pacifico', cursive;;
-  
-  font-weight: 2;
-  font-size: 1.8em;
-  color: rgb(130, 123, 110);
-  margin-bottom: 0;
-}
 
 /**---------------------------------------------------------background-----------------------------------------------------------**/
 
@@ -75,6 +58,27 @@ header {
     background-position: 0 50%;
   }
 }
+
+
+
+/**--------------------------------------------------------logo-------------------------------------------------------------**/
+
+
+
+.sign {
+  position: absolute;
+  z-index: 2;
+  overflow: hidden;
+  padding: 3% 5%;
+  font-family: 'Pacifico', cursive;;
+  
+  font-weight: 2;
+  font-size: 1.8em;
+  color: rgb(130, 123, 110);
+  margin-bottom: 0;
+}
+
+
 /**----------------------------------------------------------navigation------------------------------------------------------**/
 
 .hehe {
@@ -143,7 +147,7 @@ nav ul li a:hover:after {
 .btn:hover {
   background: transparent;
   border-color: #818d92;
-  color: #818d92;
+  color: #8da0a8;
 }
 
 
@@ -152,9 +156,8 @@ nav ul li a:hover:after {
 /**----------------------------------------------------------welcome note----------------------------------------------------------**/
 
 .ml5 {
-  position: absolute;
+  position: relative;
   padding-left: 260px;
-
   font-weight: 300;
   font-size: 4.5em;
   color: #f1bf98;
@@ -201,7 +204,7 @@ nav ul li a:hover:after {
 
 #arrowAnim {
   display: flex;
-  padding: 450px 1200px;
+  right: 100px;
   
 }
 
@@ -272,9 +275,10 @@ nav ul li a:hover:after {
 /**------------------------------------------------------Home content--------------------------------------------------------**/
 
 .content {
-  position: absolute;
+  position: relative;
   z-index: 0;
-  top: 40%;
+  display: inline-block;
+  top: 50%;
   left: 8%;
 }
 .content .title {
@@ -433,7 +437,7 @@ nav ul li a:hover:after {
     position: relative;
   }
   .about-left-content {
-    position: absolute;
+    position: relative;
     width: 80%;
   }
 }
@@ -818,7 +822,7 @@ p {
 @media only screen and (max-width:990px){
   .box { margin: 0 0 30px; }
 }
-License Terms
+
 
 
 
@@ -837,10 +841,10 @@ License Terms
 /*--------------------------------------------------------achivements----------------------------------------------------*/
 
 .waviy {
-  position: relative;
+ position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 .waviy span {
   position: relative;
