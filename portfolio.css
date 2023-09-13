@@ -8,6 +8,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 
+
+
+
+
 /**--------------------------------------------------------------basics-----------------------------------------------------------**/
 * {
   margin: 0;
@@ -586,9 +590,9 @@ foot {
   left: 0;
   right: 0;
   height: 57.5%;
-  background-color: #121212;
+  background-color: #151414;
   transition: 1.5s ease;
-  color: #6a737b;
+  color: #758a9c;
 }
 .cardse-content {
   left: 0;
@@ -649,7 +653,7 @@ foot {
 .cut-text {
   position: relative;
   text-transform: uppercase;
-  font-size: 100px;
+  font-size: 80px;
   color: transparent;
   font-weight: 900;
   font-family: "Catamaran", sans-serif;
@@ -677,44 +681,15 @@ foot {
   clip-path: polygon(0 0, 110% 0, 100% 65%, 0 25%);
 }
 
+
+
+
 .card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
 
-.card {
-  width: 450px;
-  height: 300px;
-  background: linear-gradient(135deg, #1b1a18, #151514);
-  border-radius: 10px;
-  box-shadow: 0px 4px 6px rgba(212, 203, 203, 0.1);
-  overflow: hidden;
-  transition: transform 0.3s, box-shadow 0.3s;
-  margin: 10px;
 }
-
-.card:hover {
-  transform: scale(1.05);
-  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
-}
-
-.contentp {
-  padding: 20px;
-  color: #fff;
-  text-align: center;
-}
-
-h2 {
-  margin: 0;
-  font-size: 35px;
-}
-
-p {
-  margin-top: 10px;
-  font-size: 20px;
-}
-
 
 
 
@@ -740,6 +715,14 @@ p {
   border-radius: 3px;
   overflow: hidden;
   position: relative;
+
+  background-color: #121212;
+  
+  padding: 20px;
+  text-align: center;
+  width: 470px;
+  height: 260px;
+  margin: 10px;
 }
 .box:before{
   content: "";
@@ -760,8 +743,10 @@ p {
   transform: translateX(-50%) scale(1) rotate(0);
 }
 .box img{
-  width: 100%;
-  height: auto;
+ 
+  width: 100%; /* Make the image width 100% of the box */
+  height: 100%; /* Make the image height 100% of the box */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire box */
   transition: all 0.4s ease-out;
 }
 .box:hover img{ filter: blur(5px); }
@@ -862,36 +847,55 @@ p {
   }
 }
 
-.containerach {
+
+
+
+
+
+
+
+
+.containerse {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.box {
-  background-color: #121212;
-  box-shadow: 0 8px 16px rgba(192, 206, 202, 0.1);
-  border: 1.4px solid #ccc;
-  border-radius: 15px; /* Set the desired border radius */
-  padding: 20px;
-  text-align: center;
-  width: 400px;
-  height: 300px;
-  margin: 10px;
+
+
+.boxse {
+  background: #121212;
+  margin: 30px;
+  margin-top: 5%;
+  max-width: 30%;
+  padding: 20px 50px;
+  transition: all 0.2s cubic-bezier(.25,.8,.25,1);
+  height: 240px;
+  width: 350px;
+
+  
 }
 
 
-.box h1 {
-  margin-top: 0;
-  font-size: 30px;
-  color: #4b4444;
+
+.boxse h1 {
+  font-size: 35px;
+  color: #e0c4c4;
+  
 }
 
-.box p {
-  margin-bottom: 0;
+.boxse p {
   font-size: 20px;
-  color: #adb2df;
+  
+  color: #e3aaaa;
 }
+
+
+
+
+
+
+
 
 
 
