@@ -297,9 +297,18 @@ nav ul li a:hover:after {
     #7644ff 50.19%,
     #211bd2 79.69%
   );
-  -webkit-background-clip: text;
+  
+  /* Standard property */
+  background-clip: text;
+  
+  /* Vendor prefixes for compatibility */
+  -webkit-background-clip: text; /* Chrome, Safari 3 */
+  -moz-background-clip: text;    /* Firefox */
+  -ms-background-clip: text;     /* Internet Explorer */
+  
   -webkit-text-fill-color: transparent;
 }
+
 .content h1 {
   color: #1f1f25;
   font-size: 68px;
