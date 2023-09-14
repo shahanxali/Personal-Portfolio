@@ -73,11 +73,11 @@ header {
   position: absolute;
   z-index: 2;
   overflow: hidden;
-  padding: 3% 5%;
+  
   font-family: 'Pacifico', cursive;;
   
   font-weight: 2;
-  font-size: 1.8em;
+  
   color: rgb(130, 123, 110);
   margin-bottom: 0;
 }
