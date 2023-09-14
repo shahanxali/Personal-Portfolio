@@ -73,7 +73,7 @@ header {
   position: absolute;
   z-index: 2;
   overflow: hidden;
-  
+  padding: 15px;
   font-family: 'Pacifico', cursive;;
   
   font-weight: 2;
