@@ -1,0 +1,28 @@
+
+
+/* Add this code at the end of your CSS to target mobile screens */
+
+/* Mobile Styles */
+@media screen and (max-width: 767px) {
+    /* Adjust header styles for mobile */
+  
+
+  
+    header {
+      padding: 10px;
+    }
+  
+    /* Adjust navigation styles for mobile */
+    nav {
+      font-size: 0.5rem;
+    }
+  
+    /* Adjust other elements as needed */
+    .ml5 {
+      font-size: 2.5em;
+      padding-left: 0;
+    }
+  
+    /* Add more styles for other elements as necessary */
+  }
+  
