@@ -31,9 +31,8 @@ html {
 }
 
 header {
-  background-color: #333;
-  color: rgb(215, 74, 74);
-  padding: 20px;
+  background-color: #121212;
+  padding: 10px;
   display: flex; /* Use flexbox for layout control */
   justify-content: space-between; /* Spread elements horizontally */
   align-items: center; /* Center elements vertically */
@@ -76,14 +75,14 @@ header {
 .sign {
   position: absolute;
   z-index: 2;
-  overflow: hidden;
-  padding: 15px;
+  
+  
   font-family: 'Pacifico', cursive;
   
   font-weight: 2;
   
   color: rgb(130, 123, 110);
-  margin-bottom: 0;
+  
 }
 
 
@@ -97,8 +96,9 @@ header {
 
 nav {
   overflow: hidden;
-  padding: 10px 220px;
-  font-size: 1.2rem;
+  position: fixed;
+  padding: 10px 200px;
+  font-size: 20px;
   text-transform: uppercase;
   align-items: center;
 }
@@ -139,7 +139,7 @@ nav ul li a:hover:after {
 
 .btn {
   color: black;
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2px;
   padding: 12px 23px;
